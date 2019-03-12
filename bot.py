@@ -13,6 +13,6 @@ while True: # laço para a interação de perguntas e respostas do bot
     pergunta = input("Você:")
     resposta = bot.get_rsposta(pergunta)
 
-print("Bot:",resposta)
+print("Bot:",resposta) # print com o retorno da resposta do bot se estiver dentro do laço e da variavel de lista.
 
 
