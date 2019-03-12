@@ -1,4 +1,4 @@
-#-*-coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 from chatterbot.trainers import ListTrainer #importar 2 bibliotecas ( lista treinamento ; bot)
 from chatterbot import ChatBot
 
