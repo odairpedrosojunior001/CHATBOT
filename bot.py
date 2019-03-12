@@ -2,6 +2,7 @@
 from chatterbot.trainers import ListTrainer #importar 2 bibliotecas ( lista treinamento ; bot)
 from chatterbot import ChatBot
 
+
 bot = ChatBot('Test') 
 
 conv_Imei=["oi","olá","olá","bom dia","como faturar um pedido de celular no mobile?","realizar a separação no mobile,coletar IMEI e finalizar","muito obrigado","de nada"]
