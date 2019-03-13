@@ -11,7 +11,7 @@ trainer.train([
     'Ola,em que posso ajudar?',
     'Como posso faturar um pedido de celular no mobile?',
     'Primeiro realize a separação no mobile, coletando o IMEI, logo em seguida, finalize.',
-    'Quanto tempo demora para faturar?',
+    'Quanto tempo demora para faturar um pedido no mobile?',
     'Cerca de 10 a 30 segundos.'
 ])
 
