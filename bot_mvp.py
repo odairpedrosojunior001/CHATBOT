@@ -1,10 +1,15 @@
 #-*- coding: utf-8 -*-
 
+
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
-bot = ChatBot('Célula Implantação')
 
+
+
+bot = ChatBot('Célula Implantação')
 trainer = ListTrainer(bot)
+
+
 
 trainer.train([
     'Ola',
@@ -14,6 +19,11 @@ trainer.train([
     'Quanto tempo demora para faturar um pedido no mobile?',
     'Cerca de 10 a 30 segundos.'
 ])
+
+
+
+
+
 
 while True:  # laço para a interação de perguntas e respostas do bot
     quest = input("Você: ")
