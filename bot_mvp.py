@@ -18,10 +18,10 @@ trainer.train([
     'Quem é zoneti?',
     'Ele é Squad Lead do Mini-cd, um ótimo profissional e ser humano.',
     'Quem é arthur?',
-    'É o cobra.'
-    'Quem é odair?'
-    'Ele é analista da célula implantação, e também esta aprendendo novas habilidades de desenvolvimento.'
-    'Quem é ayub?'
+    'É o cobra.',
+    'Quem é odair?',
+    'Ele é analista da célula implantação, e também esta aprendendo novas habilidades de desenvolvimento.',
+    'Quem é ayub?',
     'Um careca feio.'
     
 ])
