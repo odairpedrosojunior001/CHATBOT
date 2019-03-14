@@ -1,6 +1,5 @@
 #-*- coding: utf-8 -*-
 
-from chatterbot import ChatBot
 from chatterbot import ChatBot #importação biblioteca bot
 from chatterbot.trainers import ListTrainer #importação biblioteca de aprendizado bot (machine learning)
 
@@ -22,7 +21,7 @@ trainer.train([
     'Quem é odair?',
     'Ele é analista da célula implantação, e também esta aprendendo novas habilidades de desenvolvimento.',
     'Quem é ayub?',
-    'Um careca feio.'
+    'Um careca feio.',
     
 ])
 
@@ -71,4 +70,4 @@ else:
     #]
 #)
 
-
+#conexão com elastic
