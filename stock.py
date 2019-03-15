@@ -22,6 +22,8 @@ trainer.train([
     'Ele é analista da célula implantação, e também esta aprendendo novas habilidades de desenvolvimento.',
     'Quem é ayub?',
     'Um careca feio.',
+    'Quem é Tamara?',
+    'Ela é sua esposa',
     
 ])
 
@@ -29,8 +31,6 @@ while True:  # laço para a interação de perguntas e respostas do usuário e d
     quest = input("Você: ")
     response = bot.get_response(quest)
     print("Bot: ", response)
-else:
-    print ("Bot: Resposta não encontrada")
 
 # conectar o chatbot ao banco de dados Mongo DB 
 
