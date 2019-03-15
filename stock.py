@@ -19,7 +19,7 @@ trainer.train([
     'Quem é arthur?',
     'É o cobra.',
     'Quem é odair?',
-    'Ele é analista da célula implantação, e também esta aprendendo novas habilidades de desenvolvimento.',
+    'Ele é analista da célula implantação e também esta aprendendo novas habilidades de desenvolvimento.',
     'Quem é ayub?',
     'Um careca feio.',
     'Quem é Tamara?',
