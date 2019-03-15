@@ -13,17 +13,19 @@ trainer.train([
     'Hoje teremos contagem de CDE?',
     'Não, segue os proximos dias de contagem em Março: 15 ; 18 ; 20 ; 22 ; 25 e 27  ',
     'Obrigado',
-    'Agradecemos seu contato.',
+    'Agradecemos seu contato',
     'Quem é zoneti?',
-    'Ele é Squad Lead do Mini-cd, um ótimo profissional e ser humano.',
+    'Ele é Squad Lead do Mini-cd, um ótimo profissional e ser humano',
     'Quem é arthur?',
-    'É o cobra.',
+    'É o cobra',
     'Quem é odair?',
-    'Ele é analista da célula implantação e também esta aprendendo novas habilidades de desenvolvimento.',
+    'Ele é analista da célula implantação e também esta aprendendo novas habilidades de desenvolvimento',
     'Quem é ayub?',
-    'Um careca feio.',
+    'Um careca feio',
     'Quem é Tamara?',
     'Ela é sua esposa',
+    'Meu cde travou na tela de finalização, poderia me auxiliar?',
+    'Limpe os dados e o cache do aparelho e tente finalizar, se não conseguir , tente finalizar de um outro aparelho.'
     
 ])
 
