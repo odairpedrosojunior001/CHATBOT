@@ -3,8 +3,8 @@
 from chatterbot import ChatBot #importação biblioteca bot
 from chatterbot.trainers import ListTrainer #importação biblioteca de aprendizado bot (machine learning)
 
-bot = ChatBot('Célula Implantação')
-trainer = ListTrainer(bot)
+chatbot = ChatBot('Célula Implantação')
+trainer = ListTrainer(chatbot)
 
 #criação dos diálogos
 trainer.train([
@@ -28,9 +28,10 @@ trainer.train([
 ])
 
 while True:  # laço para a interação de perguntas e respostas do usuário e do bot
-    quest = input("Você: ")
-    response = bot.get_response(quest)
-    print("Bot: ", response)
+    pergunta = input("Você: ")
+    resposta = chatbot.get_resposa(pergunta)
+    print("Bot: ", resposta)
+
 
 # conectar o chatbot ao banco de dados Mongo DB 
 
