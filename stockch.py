@@ -3,15 +3,15 @@
 from chatterbot import ChatBot #importação biblioteca bot
 from chatterbot.trainers import ListTrainer #importação biblioteca de aprendizado bot (machine learning)
 
-chatbot = ChatBot('Célula Implantação')
-trainer = ListTrainer(chatbot)
+bot = ChatBot('Célula Implantação')
+trainer = ListTrainer(bot)
 
 #criação dos diálogos
 trainer.train([
     'Ola',
     'Ola,em que posso ajudar?',
     'Hoje teremos contagem de CDE?',
-    'Não, segue os proximos dias de contagem em Março: 15 ; 18 ; 20 ; 22 ; 25 e 27  ',
+    'Sim, segue os proximos dias de contagem em Março: 22 ; 25 e 27  ',
     'Obrigado',
     'Agradecemos seu contato',
     'Quem é zoneti?',
@@ -23,14 +23,16 @@ trainer.train([
     'Quem é Tamara?',
     'Ela é sua esposa',
     'Meu cde travou na tela de finalização, poderia me auxiliar?',
-    'Limpe os dados e o cache do aparelho e tente finalizar, se não conseguir , tente finalizar de um outro aparelho.'
+    'Limpe os dados e o cache do aparelho e tente finalizar, se não conseguir , tente finalizar de um outro aparelho.',
+    'Quem é Samanta?',
+    'Ela é a PO do Mini-CD.',
     
 ])
 
 while True:  # laço para a interação de perguntas e respostas do usuário e do bot
-    pergunta = input("Você: ")
-    resposta = chatbot.get_resposa(pergunta)
-    print("Bot: ", resposta)
+    quest = input("Você: ")
+    response = bot.get_response(quest)
+    print("Bot: ", response)
 
 
 # conectar o chatbot ao banco de dados Mongo DB 
